@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'ui-button',
-  template: `<button [disabled]="disabled">{{text}}</button><br>Just a test`,
+  template: `<button [disabled]="disabled">{{text}}</button><br>Just a test XXXA`,
   styles: [
   ]
 })
