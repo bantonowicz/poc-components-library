@@ -24,7 +24,7 @@
     "components": [
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-b670e0b8c2bc0e32373deda7b2ca2d8c",
+            "id": "component-ButtonComponent-4ca95215d4c0155ad72f0e46bedea8f9",
             "file": "projects/button/src/lib/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -34,7 +34,7 @@
             "selector": "ui-button",
             "styleUrls": [],
             "styles": [],
-            "template": "<button [disabled]=\"disabled\">{{text}}</button>",
+            "template": "<button [disabled]=\"disabled\">{{text}}</button><br>Just a test",
             "templateUrl": [],
             "viewProviders": [],
             "inputsClass": [
@@ -57,7 +57,7 @@
             "description": "",
             "rawdescription": "",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'ui-button',\n  template: `<button [disabled]=\"disabled\">{{text}}</button>`,\n  styles: [\n  ]\n})\nexport class ButtonComponent {\n  @Input() text: string;\n  @Input() disabled: boolean;\n}\n",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'ui-button',\n  template: `<button [disabled]=\"disabled\">{{text}}</button><br>Just a test`,\n  styles: [\n  ]\n})\nexport class ButtonComponent {\n  @Input() text: string;\n  @Input() disabled: boolean;\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": ""
