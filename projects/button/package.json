@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@bantonowicz/poc-button-component",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^10.0.6",
@@ -7,5 +7,12 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https@github.com:bantonowicz/poc-components-library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@bantonowicz"
   }
 }
